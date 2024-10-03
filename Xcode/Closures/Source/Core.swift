@@ -20,11 +20,11 @@
 
 import Foundation
 
-protocol DelegateProtocol: class {
+protocol DelegateProtocol: AnyObject {
 }
 
 @available(iOS 9.0, *)
-public protocol DelegatorProtocol: class {
+public protocol DelegatorProtocol: AnyObject {
     /**
      Clears any delegates/datasources that were assigned by the `Closures`
      framework for this object. This cleans up memory as well as sets the
