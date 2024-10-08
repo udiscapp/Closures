@@ -8,9 +8,6 @@ let package = Package(
         .library(name: "Closures",  targets: ["Closures"])
     ],
     dependencies: [],
-    swiftSettings: [
-        .define("SWIFT_VERSION_5_0")
-    ],
     targets: [
         .target(name: "Closures", path: "Xcode/Closures")
     ]
